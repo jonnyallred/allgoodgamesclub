@@ -1,6 +1,7 @@
 <html>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body{
         background:url(resources/images/AGGC-boardgame-bg-dimmed.png);
         font-family: 'Anton', sans-serif;
@@ -15,7 +16,7 @@ body{
 #shadow-div{
         box-shadow: 10px 10px 5px rgba(40,40,40,0.8);
         width: 600px;
-        background: rgba(215,218,219,0.94);
+        background: rgba(248,246,230,0.94);
         margin:auto;
         padding:50px;
         margin-top: 100px;
@@ -29,8 +30,13 @@ body{
         text-align: center;
         font-size: 50px;
         color: #2c3e50;
-        margin-top: 66px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         /*border: 10px solid #2c3e50;*/
+}
+#coming-soon-div p{
+        margin-top: 10px;
+        margin-bottom: 10px;
 }
 #email-signup-div{
         margin:auto;
@@ -61,15 +67,24 @@ body{
         border-bottom: 5px solid #333333;
         border-left: 5px solid #CCCCCC;
 }
+.headline{
+
+}
+.headline-no-emphasis{
+        font-family: 'Open Sans Condensed', sans-serif;
+}
 </style>
 <body>
         <div id="shadow-div">
+                <div id="coming-soon-div">
+                        <span class="headline">COMING SOON</span>
+                        <span class="headline-no-emphasis"> TO </span>
+                        <span class="headline">DOWNTOWN MESA</span>
+                </div>
                 <div id="logo-div">
                         <img id="logo" src="resources/images/AGGC Logo big v3.png" />
                 </div>
-                <div id="coming-soon-div">
-                        COMING SOON to DOWNTOWN MESA
-                </div>
+
                 <div id="email-signup-div">
                         <form id="email-signup-form">
                                 <input class="email" type="email" name="email" placeholder="Your Email" required>
