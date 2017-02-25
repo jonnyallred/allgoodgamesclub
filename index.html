@@ -1,96 +1,104 @@
 <html>
-<style>
-@import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-body{
-        background:url(resources/images/AGGC-boardgame-bg-dimmed.png);
-        font-family: 'Anton', sans-serif;
-}
-#logo{
-        max-width: 100%;
-        max-height: 100%;
-        width: 500px;
-        display: block;
-        margin: auto;
-}
-#shadow-div{
-        box-shadow: 10px 10px 5px rgba(40,40,40,0.8);
-        width: 600px;
-        background: rgba(248,246,230,0.94);
-        margin:auto;
-        padding:50px;
-        margin-top: 100px;
-        border: 3px solid black;
-}
-#logo-div{
-        margin:auto;
-}
-#coming-soon-div{
-        margin:auto;
-        text-align: center;
-        font-size: 50px;
-        color: #2c3e50;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        /*border: 10px solid #2c3e50;*/
-}
-#coming-soon-div p{
-        margin-top: 10px;
-        margin-bottom: 10px;
-}
-#email-signup-div{
-        margin:auto;
-        text-align: center;
-        font-size: 70px;
-        color: white;
-        margin-top: 66px;
-}
-#email-signup-form{
-        margin-bottom: .1em;
-}
-.email{
-        width: 400px;
-        font-size: 30px;
-        border: 5px solid #555;
-        font-family: 'Anton', sans-serif;
-        padding: 7px;
-}
-.submit{
-        font-size: 30px;
-        font-family: 'Anton', sans-serif;
-        background: #2C3E50;
-        color: white;
-        padding: 10px;
-        border-radius: 15px;
-        border-top: 5px solid #CCCCCC;
-        border-right: 5px solid #333333;
-        border-bottom: 5px solid #333333;
-        border-left: 5px solid #CCCCCC;
-}
-.headline{
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="resources/style.css">
+</head>
 
-}
-.headline-no-emphasis{
-        font-family: 'Open Sans Condensed', sans-serif;
-}
-</style>
 <body>
-        <div id="shadow-div">
-                <div id="coming-soon-div">
-                        <span class="headline">COMING SOON</span>
-                        <span class="headline-no-emphasis"> TO </span>
-                        <span class="headline">DOWNTOWN MESA</span>
-                </div>
-                <div id="logo-div">
-                        <img id="logo" src="resources/images/AGGC Logo big v3.png" />
-                </div>
-
-                <div id="email-signup-div">
-                        <form id="email-signup-form">
-                                <input class="email" type="email" name="email" placeholder="Your Email" required>
-                                <input class="submit" type="submit" name="submit" value="Let Me Know When!">
-                        </form>
-                </div>
+<!--
+  <div class="nav">
+    <div class="container">
+      <ul class="pull-left">
+        <li><a href="#">Play</a></li>
+        <li><a href="#">Connect</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+      <ul class="pull-right">
+        <li>Sign Up</li>
+      </ul>
+    </div>
+  </div>
+-->
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row   vertical-align" >
+        <div class="col-md-4">
+          <img id="logo" src="resources/images/All-Good-Game-Club-Logo-Hex-600.png" />
         </div>
+        <div class="col-md-8" >
+          <h1>Join the party.</h1>
+          <p>Game Night every Saturday <a href="https://www.google.com/maps/place/Sweet+Cakes+Cafe/@33.4148224,-111.832304,15z/data=!4m2!3m1!1s0x0:0xfb0f3ff6456cab2f?sa=X&ved=0ahUKEwiDsamHhqvSAhVplVQKHbWWB28Q_BIIggEwDg"> at Sweet Cakes</a></p>
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+          <form action="//club.us15.list-manage.com/subscribe/post?u=e8787b326fdce34eaa1f5e4cb&amp;id=55169a2814" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+          	<h2>Subscribe to our mailing list</h2>
+          <div style="container" >
+            <div class="mc-field-group row">
+                <div class="col-md-2">
+                  <label for="mce-EMAIL">Email Address</label>
+                </div>
+                <div class="col-md-2">
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+          </div>
+          <div class="row mc-field-group">
+            <div class="col-md-2">
+          	   <label for="mce-FNAME">First Name </label>
+             </div>
+             <div class="col-md-2">
+               <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+             </div>
+          </div>
+          <div class="row mc-field-group">
+            <div class="col-md-2">
+          	   <label for="mce-LNAME">Last Name </label>
+             </div>
+             <div class="col-md-2">
+               <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+             </div>
+          </div>
+          <div id="mce-responses" class="clear">
+          		<div class="response" id="mce-error-response" style="display:none"></div>
+          		<div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e8787b326fdce34eaa1f5e4cb_55169a2814" tabindex="-1" value=""></div>
+          <div class="row clear">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+              <input type="submit" value="Sign me up!" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+          </div>
+          </form>
+          </div>
+
+          <!--End mc_embed_signup-->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--
+  <div class="learn-more">
+    <div class="container">
+      <div>
+        <div>
+          <h3>Board Game Library</h3>
+          <p>We find the funnest new games and the best classics.</p>
+          <p><a href="#">See our collection</a></p>
+        </div>
+        <div>
+          <h3>Tasty Food</h3>
+          <p>Come enjoy pizza by Mykes or dessert from Sweet Cakes. Or try one of our speciality craft sodas.</p>
+        </div>
+        <div>
+          <h3>Fun people</h3>
+          <p>Don't have a group? Come play in one of our many open games.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+-->
 </body>
 </html>

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+        background:url(images/AGGC-boardgame-bg-dimmed.png);
+        font-family: 'Anton', sans-serif;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+  background-color: #ddd;
+  padding-top: 10px;
+
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline;
+}
+.jumbotron {
+    margin-top: 120px;
+    background: rgba(218,218,218,0.85);
+}
+
+/**/
+#logo{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+
+}
+
+
+
+/*#shadow-div{
+        box-shadow: 10px 10px 5px rgba(40,40,40,0.8);
+        width: 600px;
+        background: rgba(188,186,188,0.94);
+        margin:auto;
+        padding:50px;
+        margin-top: 100px;
+        border: 3px solid black;
+}
+#logo-div{
+        margin:auto;
+}
+#coming-soon-div{
+        margin:auto;
+        text-align: center;
+        font-size: 50px;
+        color: #192642;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /*border: 10px solid #2c3e50;*/
+}
+/*
+#coming-soon-div p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+#email-signup-div{
+        margin:auto;
+        text-align: center;
+        font-size: 70px;
+        color: white;
+        margin-top: 66px;
+}
+#email-signup-form{
+        margin-bottom: .1em;
+}
+
+
+.headline{
+
+}
+.headline-no-emphasis{
+        font-family: 'Open Sans Condensed', sans-serif;
+}
+*/
